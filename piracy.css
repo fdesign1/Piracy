@@ -1,13 +1,19 @@
-* {
-    margin: 0;
-    padding: 0;
-  }
-  html,
-  body {
-    background: #303030;
-    color: #303030;
-    height: 100%;
-    width: 100%;
-    positon: absolute;
-    font: normal 1em "Arial";
-  }
+css body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+.fakeimg {
+  height: 200px;
+  background-image: url('https://sfwp.wpcdn.pl/sg_specialteaser_h/5fc4008394c6e4_52869436.jpg');
+  transition: transform 0.5s;
+}
+
+.fakeimg:hover {
+  transform: scale(0.9);
+}
+
+.p-5 {
+font-size: 30px;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
