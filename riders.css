@@ -1,11 +1,53 @@
+body {
+  overflow-x: hidden;
+}
+
+#navegacion{
+
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
+       
+}
 .p-5 {
     font-size: 30px;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     }
 
 .ourriders{
+    padding-top: 40px;
     text-align: center;
 }
-.ourtrener{
+.theteam_ourriders{
+  text-align: center;
+  font-size: 12px;
+  padding-bottom: 20px;
+}
+/*.ourtrener{
     text-align: center;
+}*/
+
+
+.card-img-top {
+    position: relative;
+  }
+
+  .carousel-caption {
+    position: absolute;
+    top: 30%;
+    width: 80%;
+    text-align: center;
+  }
+
+.card-body{
+  width: 300px;
+}
+
+footer{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 }

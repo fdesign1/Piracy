@@ -2,18 +2,87 @@ css body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
+#navegacion{
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
+}
 
-.fakeimg {
+
+.p-5 {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .carouselExampleDark{
+    z-index: 1;
+  }
+  .carousel-inner {
+    height: 500px;
+  }
+  @media (max-width: 767px) {
+    .carousel-inner {
+        height: 200px;
+    }
+}
+
+  .carousel-caption {
+    position: absolute;
+    top: 30%;
+    width: 80%;
+    text-align: center;
+  }
+ 
+
+  
+
+
+.stadium1 {
+  
   height: 200px;
-  background-image: url('https://sfwp.wpcdn.pl/sg_specialteaser_h/5fc4008394c6e4_52869436.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./Riders_pic/rider.jpg');
   transition: transform 0.5s;
 }
 
-.fakeimg:hover {
+.stadium1:hover {
   transform: scale(0.9);
 }
 
-.p-5 {
-font-size: 30px;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.stadium2 {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./Stadion/stadion1.jpg');
+  transition: transform 0.5s;
 }
+
+.stadium2:hover {
+  transform: scale(0.9);
+}
+
+.rider_anime {
+  
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('./Stadion/stadion.jpg');
+  transition: transform 0.5s;
+}
+
+.rider_anime:hover {
+  transform: scale(0.9);
+}
+
+.col-sm-5{
+  margin-right: 60px;
+}
+
+footer{
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
+}
+
