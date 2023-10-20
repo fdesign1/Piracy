@@ -8,8 +8,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="piracy.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-</head>
+   integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
+  </head>
 <!-- HEAD ------------------------------------------------------------------------------------------------------------------------------------------>
 
 <!--BARRA DE NAVEGACION=======================================================================================-->
@@ -67,60 +69,66 @@
 
 <!-- SLIDER----------------------------------------------------------------------------------------------------->
 
-  <header>
-    <div id="carouselExampleDark" class="carousel carousel-dark slide">
-      <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  <!-- Carousel -->
+<div id="demo" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./Stadion/stadion_animated.jpg" alt="Los Angeles" class="d-block" style="width:100%">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="ml2">im. Zbigniewa Podleckiego</h1>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/355503422_283165274093899_1212976598348029513_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5614bc&_nc_ohc=96lzNb92uKcAX_vLn15&_nc_ht=scontent-waw1-1.xx&oh=00_AfBB1JNJ3iRoNqRM7RvD08ctEEMBwEtwfSg-xqcgxOMeBg&oe=652D16AC" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Become a pirate, be one of us</h5>
-            <p> Write us on the contact section to be one of our riders </p>
-          </div>
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/355684926_283165254093901_5001262912995261749_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5614bc&_nc_ohc=ykXBxWgbV7sAX-FzMEc&_nc_ht=scontent-waw1-1.xx&oh=00_AfDIYKk9C4uOt2BFHE4NuACZN6c14zFR6LWVmgekB7uM5g&oe=652CA881" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Do you want to try speedway?</h5>
-            <p>You can rent one of our bikes,  with help of experienced coach</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="https://www.wybrzezegdansk.pl/files/18/2022/Stadion___u__lowy_Gda__sk-0003.jpg" class="d-block w-100" alt="...">
-          <div class="carousel-caption d-none d-md-block">
-            <h5>Safe track</h5>
-            <p>Gdansk has a very well prepared surface which provides pure joy while riding speedway</p>
-          </div>
-        </div>
-      </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
     </div>
-  </header>
+
+
+    <div class="carousel-item">
+      <img src="./Riders_pic/piracy_team.png" alt="Riders" class="d-block" style="width:100%">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="ml3">Piracy Gdańsk</h1>
+      </div>
+    </div>
+
+
+    <div class="carousel-item">
+      <img src="./Stadion/boxes.png" alt="Riders" class="d-block" style="width:100%" id="boxes">
+      <div class="carousel-caption d-none d-md-block">
+        <h1 class="ml12">A new Club</h1>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
   <hr>
-<!-- SLIDER----------------------------------------------------------------------------------------------------->
+<!-- END SLIDER----------------------------------------------------------------------------------------------------->
+
+
+
+
 
 <!-- WELCOME AND USEFUL INFO --------------------------------------------------------------------------------->
-  <div class="container m-auto">
-    <div class="row">
-      <div class="col-sm-5">
-
+  <div class="container"> <!-- contenedor-->
+    <div class="row">                     <!-- fila----------------------->
+      <div class="col-4 col-sm col" id="welcoming_container">                    <!-- column welcoming-->
         <h2>Welcome to Piracy Gdańsk</h2>
         <p>We are the amateur speedway club from the Baltic Sea</p>
-        <div class="stadium2"></div>
-        <p>The official Piracy Gdansk website where you will find information about the club, how to take part of our events, rent a bike to have your first contact with speedway and more. </p>
+        <p>The official Piracy Gdansk website where you will find information about the club, how to take part of our events and more. </p>
+       <img src="./Riders_pic/rider.jpg" alt="" class="img-fluid">
         <h3 class="mt-4">Useful Information</h3>
-  
         <ul class="nav nav-pills flex-column">
           <li class="nav-item">
             <a class="nav-link" href="#">Our Stadium</a>
@@ -139,40 +147,105 @@
       </div>
 
 
-<!-- JOIN US --------------------------------------------------------------------------------->
 
-      <div class="col-sm-5">
-        <h2>JOIN US</h2>
-        <h5>Have you ever tried speedway? </h5>
-        <div class="stadium1"></div>
-        <p>If you would like to participate in our trainings, we count with a group of experienced people which can help
-          you to have your first contact with speedway.</p>
-        <p>Speedway.</p>
-        <h2 class="mt-4">FIRST BUDEX CUP GDANK 2023</h2>
-        <h5>Our first official cup</h5>
-        <div class="rider_anime"></div>
-        <p>Some text..</p>
-        <p>Our squad took part of the first speedway cup with the pirates team, lot of fun and good racing.</p>
+       <div class="col-4 col-sm col" id="second_welcoming" >                   
+        <h2>im. Zbigniewa Podleckiego</h2>
+        <p>We take part of our trainings in the stadium where the leagues matches take place</p>
+        <p>Find more information about the facilities in the below links </p>
+        <h3 class="mt-4">Useful Information</h3>
+        <ul class="nav nav-pills flex-column">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Stadium</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kevlar Piracy Gdańsk</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Find us on Instagram</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Bike Anatomy</a>
+          </li>
+        </ul>
+        <hr class="d-sm-none">
       </div>
-    </div>
-  </div>
+      
 
 
+<!-- FACEBOOK --------------------------------------------------------------------------------->
 
+      <div class="col-4 col-sm col" id="facebook-container">
+        <h2>Social Media</h2>
+        <h5>Follow us! </h5>
+        <h3 class="mt-4">Team</h3>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0tGbRTNMeMv3pGjdifKiHnS6vNwNsAovV94kKsMpv3zczZDhxb5hzYxu3S3cEpQhWl%26id%3D100072012867089&show_text=true&width=500"
+          width="500" height="581" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <h3 class="mt-4">Piracy on TV</h3>
+        <iframe
+          src="https://www.facebook.com/plugins/video.php?height=308&href=https%3A%2F%2Fwww.facebook.com%2F100072012867089%2Fvideos%2F344111527962045%2F&show_text=false&width=560&t=0"
+          width="500" height="400" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
+        <h3 class="mt-4">Budex Cup</h3>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0ugHPnxu4nEC3cjJfsvTB4MbVdPr8sScq7THTgogV9nHaEJQcqz85JfPNFGZX5pHLl%26id%3D100072012867089&show_text=true&width=500"
+          width="500" height="581" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <h3 class="mt-4">Piracy in official GKS website</h3>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0vYX7tC5Pq2AFHaGXhor84zWZe22gFfoWCJDqZEwNG75mschjLwszT5gAfoj1nLdPl%26id%3D100072012867089&show_text=true&width=500"
+          width="500" height="627" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <h3 class="mt-4">Budex Cup Galeria</h3>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid02G9qLQmtMsYGkHR1e16WnxAttA3X4WDSZMXoMBmjBotg7gJfQa5GqSMqWsRFj4znKl%26id%3D100072012867089&show_text=true&width=500"
+          width="500" height="738" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <h3 class="mt-4">Debut Mechlik triunth</h3>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid0jpMG3bMLufpRXVQbPZgUhZywUYF2RH1d9rSspZYnda3aLawvUj5aAH855FmK7fRGl%26id%3D100072012867089&show_text=true&width=500"
+          width="500" height="654" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <h3 class="mt-4">Training Piracy</h3>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid035YYUDiox1BZDy1SC7TCuP7ntWUJDS2DFNw6GTjeYhAajRaCEcjNiBA3Gr3grKb5yl%26id%3D100072012867089&show_text=true&width=500"
+          width="500" height="664" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <h3 class="mt-4">Pits area</h3>
+        <iframe
+          src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fpermalink.php%3Fstory_fbid%3Dpfbid08YWwy1uFm5ZzVu5L7tLkkDNbBx3NFn7NjMwzgqkzRyFenvkWwQAagsfby8CpfWn8l%26id%3D100072012867089&show_text=true&width=500"
+          width="500" height="250" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true"
+          allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+        <hr class="d-sm-none">
+      </div>
+      </div>
+      </div>
+      <br>
+      <br>
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2325.5641927442243!2d18.671344416282007!3d54.34701058020085!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46fd73a85ba4502f%3A0x8e4e951c819f2213!2sStadion%20Imienia%20Zbigniewa%20Podleckiego%2C%20Zawodnik%C3%B3w%201%2C%2080-980%20Gda%C5%84sk!5e0!3m2!1spl!2spl!4v1640098254390!5m2!1spl!2spl" width="600" height="450" style="border: 0px; --darkreader-inline-border-top: initial; --darkreader-inline-border-right: initial; --darkreader-inline-border-bottom: initial; --darkreader-inline-border-left: initial;" allowfullscreen="" loading="lazy" data-darkreader-inline-border-top="" data-darkreader-inline-border-right="" data-darkreader-inline-border-bottom="" data-darkreader-inline-border-left=""></iframe>
 
-
-  
+          </div>
+          <div class="col">more data</div>
+          <div class="w-100"></div>
+          <div class="col">more data</div>
+          <div class="col">more data</div>
+        </div>
+        
+      </div>
     <!--FOOTER ----------------------------------------------------------------------------------------->
     <!-- Remove the container if you want to extend the Footer to full width. -->
     <!-- Footer -->
-    <div class="mt-5 p-4 bg-primary-subtle text-white text-center"></div>
 
-    <footer
-            class="text-center text-lg-start text-white"
-            style="background-color: #45526e"
-            >
+
+    <footer class="text-center text-lg-start text-white" style="background-color: #45526e">
+      <div class="mt-5 p-4 bg-primary-subtle text-white text-center" id="Barra_Footer"></div>       <!-- barra roja-->
       <!-- Grid container -->
       <div class="container p-4 pb-0">
+        
         <!-- Section: Links -->
         <section class="">
           <!--Grid row-->
@@ -313,10 +386,8 @@
 
 
 
-
-
+<script src="./text_animated.js"></script>
 <script src="./piracy.js"></script>
-
 <script src="https://unpkg.com/@popperjs/core@2"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
   integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>

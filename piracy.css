@@ -11,33 +11,74 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 }
 
 
-.p-5 {
-  font-size: 30px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
   
-  .carouselExampleDark{
-    z-index: 1;
-  }
-  .carousel-inner {
-    height: 500px;
-  }
-  @media (max-width: 767px) {
-    .carousel-inner {
-        height: 200px;
-    }
+footer{
+background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
-  .carousel-caption {
-    position: absolute;
-    top: 30%;
-    width: 80%;
-    text-align: center;
+#facebook-container {
+  overflow-y: scroll;
+  height: 600px;  /* Adjust this value to your needs */
+}
+
+@media (max-width: 767px) {
+  iframe {
+      width: min-content;
+      display: block;
+      overflow: hidden;
   }
- 
+#facebook-container{
+    width: 200px;
+  }
+}
+#Barra_Footer{
+background: rgb(18,12,124);
+background: linear-gradient(90deg, rgba(18,12,124,1) 0%, rgba(83,20,50,1) 50%, rgba(154,33,33,1) 100%);
+}
 
+
+
+
+
+
+
+
+/*ANIMATED TEXTO*/
+
+.ml3 {
+  font-weight: 900;
+  font-size: 3.5em;
+  height: 300px;
   
+}
 
+.ml12 {
+  font-weight: 200;
+  font-size: 3em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+  height:  300px;
+}
+
+.ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+.ml2 {
+  font-weight: 900;
+  font-size: 3.5em;
+}
+
+.ml2 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
 
 .stadium1 {
   
@@ -53,11 +94,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 }
 
 .stadium2 {
-  height: 200px;
+  height: 300px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url('./Stadion/stadion1.jpg');
+  background-image: url('./Stadion/stadion_animated2.jpg');
   transition: transform 0.5s;
+
 }
 
 .stadium2:hover {
@@ -66,10 +108,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 
 .rider_anime {
   
-  height: 200px;
+  height: 300px;
   background-size: contain;
   background-repeat: no-repeat;
-  background-image: url('./Stadion/stadion.jpg');
+  background-image: url('./Riders_pic/rider.jpg');
   transition: transform 0.5s;
 }
 
@@ -77,12 +119,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
   transform: scale(0.9);
 }
 
-.col-sm-5{
-  margin-right: 60px;
+
+.container{
+  margin-top: 100px;
+  margin-bottom: 0%;
 }
 
-footer{
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
-}
 
