@@ -1,4 +1,5 @@
 
+/*riders*/
 
 var textWrapper = document.querySelector('.ml3');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
@@ -18,6 +19,7 @@ anime.timeline({loop: true})
     delay: 1000
   });
 
+/*stadion*/
 
   var textWrapper = document.querySelector('.ml12');
 textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
@@ -40,6 +42,9 @@ anime.timeline({loop: true})
     delay: (el, i) => 100 + 30 * i
   });
 
+
+  /*boxes*/
+  
   var textWrapper = document.querySelector('.ml2');
   textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
   
@@ -60,6 +65,3 @@ anime.timeline({loop: true})
       delay: 1000
     });
 
-  
-
-  

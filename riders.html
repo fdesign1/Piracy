@@ -9,6 +9,7 @@
   <link rel="stylesheet" href="riders.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
 
 <body>
@@ -66,22 +67,40 @@
     <br>
 
     <!-------------------------------------------------OUR TEAM RIDERS ------------->
-    <div class="row">
-      <h1 class="ourriders">Piracy Gdańsk Riders</h1>
-      <h2 class="theteam_ourriders">The team - Our Riders</h2>
+   <div class="row" id="Titulo">
+    <div class="col">
+      <h1 class="ml10">
+        <span class="text-wrapper">
+          <span class="text-focus-in">PIRACY RIDERS</span>
+        </span>
+      </h1>
+    </div>
+    <div class="col">
+      <div>
+        <img src="./logo/LOGO_CHICO.png" alt="" class="heartbeat">
+      </div>
+    </div>
+
+   </div>
+
+  
+    
 
       <!-------------------------------------------------Waldek ------------->
-
-      <div class="col">
-        <div class="card-deck">
-        </div>
+      
+      <div class="row" id="primera_fila">
+      <div class="col col-sm col-md col-lg">
+       
         <div class="card">
           <img
-            src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/352205258_195366403063301_3097372236968636307_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5614bc&_nc_ohc=2kcyeIsooDYAX_bDMqU&_nc_ht=scontent-waw1-1.xx&oh=00_AfCmevLTxDC92WyYJF6r1QzafQnf8Doe1w14QrSTiN9ZWA&oe=65265594"
+            src="./cards/waldek/waldek2.jpg"
             class="card-img-top" alt="..." id="Waldek_id">
+           
           <div class="card-body">
             <h5 class="card-title">Waldek Kroll</h5>
-            <table class="table table-hover" id="Table_Waldek">
+
+
+            <table class="table table-hover scale-in-left" id="Table_Waldek">
               <thead>
                 <tr>
                   <th scope="col">Details</th>
@@ -117,24 +136,22 @@
             </table>
             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
               <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-            </svg>
-            
+            </svg>  
           </div>
         </div>
-        <br>
-     
       </div>
+      
     
     <!-------------------------------------------------Robert ------------->
 
-      <div class="col">
+      <div class="col col-sm">
         <div class="card">
           <img
-            src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/351167365_641094407884417_7523781548144595758_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=49d041&_nc_ohc=tsa2AXtTm3kAX8KNe1L&_nc_ht=scontent-waw1-1.xx&oh=00_AfDm_YUwHTU3wu9IKCprQNjzf8VW4XD1EqB2B81AMW2RtQ&oe=65262938"
+            src="./cards/waldek/Robert1.jpg"
             class="card-img-top" alt="..." id="Robert_id">
           <div class="card-body">
             <h5 class="card-title">Robert Mechlik</h5>
-            <table class="table table-hover" id="Table_Robert">
+            <table class="table table-hover scale-in-left" id="Table_Robert">
               <thead>
                 <tr>
                   <th scope="col">Details</th>
@@ -173,22 +190,21 @@
             </svg>
           </div>
         </div>
-        <br>
-      
       </div>
     
     <!-------------------------------------------------Dariusz ------------->
-
-      <div class="col">
+  
+      <div class="col col-sm">
+        
         <div class="card">
           <img
-            src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/383225024_6533625580067779_5240137009436754193_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5614bc&_nc_ohc=gVURqjp0t3YAX_5sBCL&_nc_ht=scontent-waw1-1.xx&oh=00_AfDE-tSLo_koD0Euiib_QhRPsUNLbOlgNYqyqXek5Iwh4A&oe=652727AB"
+            src="./cards/waldek/dariusz2.jpg"
             class="card-img-top" alt="..." id="Dariusz_id">
           <div class="card-body">
             <h5 class="card-title">Dariusz Dymek</h5>
             <!--<p class="card-text" id="Dariuszdetails"></p> -->
 
-            <table class="table table-hover" id="Table_Dariusz">
+            <table class="table table-hover scale-in-left" id="Table_Dariusz">
               <thead>
                 <tr>
                   <th scope="col">Details</th>
@@ -228,19 +244,19 @@
           </div>
         </div>
         <br>
-  
       </div>
-    </div>
+   
+   
 <!-------------------------------------------------Lukasz ------------->
-<div class="row">
-      <div class="col">
+<div class="row" id="segunda_fila">
+      <div class="col col-sm col-md col-lg"">
         <div class="card">
           <img
-            src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/355132840_279136284496798_8719739583196437943_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=5f2048&_nc_ohc=0LQ--fdO034AX8Iw-W2&_nc_ht=scontent-waw1-1.xx&oh=00_AfAgXXq0wMWr0RLPv2rws9qZvvPFRZ2jXRx4D09_NwVYmg&oe=65341FD8"
+            src="./cards/waldek/lukasz2.jpg"
             class="card-img-top" alt="..." id="Lukasz_id">
           <div class="card-body">
             <h5 class="card-title">Łukasz Pierkoś</h5>
-            <table class="table table-hover" id="Table_Lukasz">
+            <table class="table table-hover scale-in-left" id="Table_Lukasz">
               <thead>
                 <tr>
                   <th scope="col">Details</th>
@@ -291,7 +307,7 @@
           <div class="card-body">
             <h5 class="card-title">Dawid Dymek</h5>
             <p class="card-text" id="Dawiddetails"></p>
-            <table class="table table-hover" id="Table_Dawid">
+            <table class="table table-hover scale-in-left" id="Table_Dawid">
               <thead>
                 <tr>
                   <th scope="col">Details</th>
@@ -338,10 +354,10 @@
         <div class="card">
           <img
             src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/355360491_283165620760531_8791043046348982528_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=WKmCU6TB1NkAX8RDqgz&_nc_ht=scontent-waw1-1.xx&oh=00_AfDovV4dzWIDkyYhvfc81dUq_CHZfMsXmh2v2EnNAkWxKA&oe=65340895"
-            class="card-img-top" alt="..." id="Wojciech_id">
+            class="card-img-top transition-effect" alt="..." id="Kuba_id" >
           <div class="card-body">
-            <h5 class="card-title">Wojciech Stachacz</h5>
-            <table class="table table-hover" id="Table_Wojciech">
+            <h5 class="card-title">Kuba Kuszewski</h5>
+            <table class="table table-hover scale-in-left" id="Table_Kuba">
               <thead>
                 <tr>
                   <th scope="col">Details</th>
@@ -355,7 +371,7 @@
                 <tr>
                   <th scope="row">Name:</th>
                   <td></td>
-                  <td id="Waldekname">Wojciech Stachacz</td>
+                  <td id="Kubaname">Kuba Kuszewski</td>
                   <th>Country:</th>
                   <td>Poland</td>
                 </tr>
@@ -384,74 +400,83 @@
 </div>
      
 
-      
-      
-     
+      <!-- Eryk card------------------------------------------------------------------------------------------------------------------------------------->
+<br>    
+
+
+<div class="row row justify-content-md-center" id="Eryk_row">
+    <div class="card mb-3" style="max-width: 500px;" id="coach">
+      <div class="row g-0">
+        <h1 class="ourriders text-focus-in">Our Coach</h1>
+        <h2 class="theteam_ourriders">The trainer</h2>
+        <div class="row-md-4">
+          <img
+            src="./cards/waldek/Eryk2.jpg"
+            class="img-fluid rounded-start" alt="..." id="Eryk_id">
+        </div>
+        <div class="col-md-8">
+          <div class="card-body" id="Table_Eryk2">
+            <h5 class="card-title">Details</h5>
+            <table class="table table-hover scale-in-left" id="Table_Eryk">
+              <thead>
+                <tr>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                  <th scope="col"></th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Name:</th>
+                
+                  <td id="Waldekname">Eryk Jóżwiak
+                  </td>
+                  <th>Country:</th>
+                  <td>Poland</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fav. Rider:</th>
+                  <td>Tomasz Gollob</td>
+                  <th>Position:</th>
+                  <td>Trainer</td>
+                </tr>
+                <tr>
+                  <th scope="row">Birthdate:</th>
+                  <td>09/11/1981</td>
+                  <th>League:</th>
+                  <td>1st</td>
+                </tr>
+              </tbody>
+            </table>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+    </div>
 
     
-    
-    
-    
-    
-    
-    
-    
-    
-    <br>    
-    <h1 class="ourriders">Our Coach</h1>
-    <h2 class="theteam_ourriders">The trainer</h2>
-    <div class="row row justify-content-md-center">
-        <div class="card mb-3" style="max-width: 540px;">
-          <div class="row g-0">
-            <div class="row-md-4">
-              <img
-                src="https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/284207502_10209746503255187_648985069983499299_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=YNLwkjth23MAX_uTRh8&_nc_ht=scontent-waw1-1.xx&oh=00_AfBSO1ZIGk8niSbEi1Jfrs6CAwBX-Ci6yt-zhvmsfs-x7g&oe=6526668B"
-                class="img-fluid rounded-start" alt="..." id="Eryk_id">
-            </div>
-            <div class="col-md-8">
-              <div class="card-body">
-                <h5 class="card-title">Details</h5>
-                <table class="table table-hover" id="Table_Eryk">
-                  <thead>
-                    <tr>
-                      <th scope="col"></th>
-                      <th scope="col"></th>
-                      <th scope="col"></th>
-                      <th scope="col"></th>
-                      <th scope="col"></th>
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <th scope="row">Name:</th>
-                    
-                      <td id="Waldekname">Eryk Jóżwiak
-                      </td>
-                      <th>Country:</th>
-                      <td>Poland</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Fav. Rider:</th>
-                      <td>Tomasz Gollob</td>
-                      <th>Position:</th>
-                      <td>Trainer</td>
-                    </tr>
-                    <tr>
-                      <th scope="row">Birthdate:</th>
-                      <td>09/11/1981</td>
-                      <th>League:</th>
-                      <td>1st</td>
-                    </tr>
-                  </tbody>
-                </table>
-                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"/>
-                </svg>
-              </div>
-            </div>
-          </div>
-        </div> 
-  
+<div class="row">
+  <div class="col">
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+  </div>
+
+  <div class="col">
+
+
+
+  </div>
+</div>
+
+        
 
 
 
@@ -459,12 +484,7 @@
     <!--FOOTER ----------------------------------------------------------------------------------------->
     <!-- Remove the container if you want to extend the Footer to full width. -->
     <!-- Footer -->
-    <div class="mt-5 p-4 bg-primary-subtle text-white text-center"></div>
-
-    <footer
-            class="text-center text-lg-start text-white"
-            style="background-color: #45526e"
-            >
+    <footer  class="text-center text-lg-start text-white">
       <!-- Grid container -->
       <div class="container p-4 pb-0">
         <!-- Section: Links -->
@@ -595,20 +615,20 @@
       <!-- Grid container -->
     </footer>
     <!-- Footer -->
-  </div>
+  
   <!-- End of .container -->
-</footer>
-<!--FOOTER ----------------------------------------------------------------------------------------->
-
-
+  <!--FOOTER ---------------------------------->
 
 
 </body>
 
+
 <!-- SCRIPTS ------------------------------------------------------------------------------------------------------------------------------------------------->
 <script src="https://unpkg.com/@popperjs/core@2"></script>
+<script src="./text_animated.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="jquery-3.6.0.min.js"></script>
-<script src="./riders.js"></script>
 <script src="./riders_cards.js"></script>
+<script src="./riders.js"></script>
+
 </html>

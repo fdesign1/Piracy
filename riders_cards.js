@@ -2,7 +2,7 @@ let originalSrc;
 
 document.getElementById('Waldek_id').addEventListener('mouseover', function() {
     originalSrc = this.src;
-    this.src = 'https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/353068864_274962094914217_7919074638914782578_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=5f2048&_nc_ohc=O386uv8lKSoAX-4UyKs&_nc_ht=scontent-waw1-1.xx&oh=00_AfD1O8IqHMV9QAH7eaHiu1zD89zOK3S0bS07E_omG2Sj7g&oe=652ED9D8';
+    this.src = 'https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/353456266_274962001580893_3467884242510310051_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=5f2048&_nc_ohc=bkI7vzcM9X4AX_xy6pa&_nc_ht=scontent-waw1-1.xx&oh=00_AfDyhQPU5zfxMpHZYDujKuGT3hvo9pP4PoibArqFlJ95ow&oe=6536B539'
     document.getElementById('Table_Waldek').style.display = 'block';
 });
 document.getElementById('Waldek_id').addEventListener('mouseout', function() {
@@ -13,7 +13,7 @@ document.getElementById('Waldek_id').addEventListener('mouseout', function() {
 // ----------------------------------------------------------------------------------------------------------------------------------
 document.getElementById('Robert_id').addEventListener('mouseover', function() {
     originalSrc = this.src;
-    this.src = 'https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/355684926_283165254093901_5001262912995261749_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=5f2048&_nc_ohc=ykXBxWgbV7sAX-FzMEc&_nc_ht=scontent-waw1-1.xx&oh=00_AfDQg2CqsuwPxXFaDre5OEyldFslNmorqQUEiPDyRZZ-ww&oe=652EA2C1';
+    this.src = 'https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/353460995_274962191580874_8097842282206814821_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=EwTDYopociEAX_hy4fH&_nc_ht=scontent-waw1-1.xx&oh=00_AfAz0-BwV3IgxboeHdSz9BcP4meZZM663PUM3ZF_bPbeYg&oe=6537AE4E';
     document.getElementById('Table_Robert').style.display = 'block';
 });
 document.getElementById('Robert_id').addEventListener('mouseout', function() {
@@ -26,20 +26,20 @@ document.getElementById('Robert_id').addEventListener('mouseout', function() {
 
 document.getElementById('Dariusz_id').addEventListener('mouseover', function() {
     originalSrc = this.src;
-    this.src = 'https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/349004762_274962511580842_6274746838223589923_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=CNb2_BndHycAX9kPKrM&_nc_ht=scontent-waw1-1.xx&oh=00_AfAbH8XXDELy5Pay1WALijC1Nyzet2s0H6ZXyvug7q67HQ&oe=652D7E3F';
+    this.src = 'https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/349004762_274962511580842_6274746838223589923_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=5f2048&_nc_ohc=GV-EvEcYeGkAX8T9cnt&_nc_ht=scontent-waw1-1.xx&oh=00_AfAYwxNK7DwBlN4FT6u4Ztg-H9EzSESjzGZzXoa97oIbyg&oe=6537617F';
     document.getElementById('Table_Dariusz').style.display = 'block';
 });
 document.getElementById('Dariusz_id').addEventListener('mouseout', function() {
     this.src = originalSrc;
     document.getElementById('Table_Dariusz').style.display = 'none';
-
 });
 
 // ----------------------------------------------------------------------------------------------------------------------------------
 document.getElementById('Lukasz_id').addEventListener('mouseover', function() {
     originalSrc = this.src;
-    this.src = 'https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/367414585_775939411199760_1973001066962658240_n.jpg?_nc_cat=102&ccb=1-7&_nc_sid=5f2048&_nc_ohc=liwfXdF-aegAX8kzywK&_nc_ht=scontent-waw1-1.xx&oh=00_AfBgvm1lxmR6alBu3Xj9iWj-z60nyfDtTP9cdeXtpmEjPw&oe=652E11C9';
+    this.src = 'https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/352322629_279136174496809_3172107967548987556_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=5f2048&_nc_ohc=Su_D6iTdn00AX9EZm3I&_nc_ht=scontent-waw1-1.xx&oh=00_AfAjt9-qU9fQaWlIQpsiXQVE099dUM-inupgjFJ0n0pBWA&oe=6536BF92';
     document.getElementById('Table_Lukasz').style.display = 'block';
+    
 });
 document.getElementById('Lukasz_id').addEventListener('mouseout', function() {
     this.src = originalSrc;
@@ -51,7 +51,7 @@ document.getElementById('Lukasz_id').addEventListener('mouseout', function() {
 
 document.getElementById('Dawid_id').addEventListener('mouseover', function() {
     originalSrc = this.src;
-    this.src = 'https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/381677838_6732876480138567_2872472436998632576_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=4ZFvmBXV5PEAX9bbLfc&_nc_ht=scontent-waw1-1.xx&oh=00_AfADNML_PUqh-4csHNJHLcm0gWrSd-nG0yc4na1INS1yBA&oe=652D4DDB';
+    this.src = 'https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/355308340_283165104093916_8534133493789141167_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=5f2048&_nc_ohc=nlsXvUaSxmcAX83EPAq&_nc_ht=scontent-waw1-1.xx&oh=00_AfBNpO9AXqoEBIAx8zPuUmDrl1YAF1oijS6kka5F6b_4hA&oe=65387731';
     document.getElementById('Table_Dawid').style.display = 'block';
 });
 document.getElementById('Dawid_id').addEventListener('mouseout', function() {
@@ -62,14 +62,14 @@ document.getElementById('Dawid_id').addEventListener('mouseout', function() {
 
 //-----------------------------------------------------------------------------------------------------------
 
-document.getElementById('Wojciech_id').addEventListener('mouseover', function() {
+document.getElementById('Kuba_id').addEventListener('mouseover', function() {
     originalSrc = this.src;
     this.src = 'https://scontent-waw1-1.xx.fbcdn.net/v/t39.30808-6/355515008_283164930760600_8767168663637689363_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=5f2048&_nc_ohc=kHtwR8zlVpMAX8_je3f&_nc_ht=scontent-waw1-1.xx&oh=00_AfCpQ_rAY1CRRC-evoPfVyrAMTTTzNiCskWASTUQL1hXNw&oe=65338220';
-    document.getElementById('Table_Wojciech').style.display = 'block';
+    document.getElementById('Table_Kuba').style.display = 'block';
 });
-document.getElementById('Wojciech_id').addEventListener('mouseout', function() {
+document.getElementById('Kuba_id').addEventListener('mouseout', function() {
     this.src = originalSrc;
-    document.getElementById('Table_Wojciech').style.display = 'none';
+    document.getElementById('Table_Kuba').style.display = 'none';
 
 });
 

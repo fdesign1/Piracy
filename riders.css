@@ -1,7 +1,3 @@
-body {
-  overflow-x: hidden;
-  background-color: red;
-}
 
 #navegacion{
     position: fixed;
@@ -27,31 +23,299 @@ body {
   font-size: 12px;
   padding-bottom: 20px;
 }
-/*.ourtrener{
-    text-align: center;
-}*/
 
 
-.card-img-top {
-    position: relative;
-  }
 
-  .carousel-caption {
-    position: absolute;
-    top: 30%;
-    width: 80%;
-    text-align: center;
-  }
-
-.card-body{
-  width: 300px;
+#Titulo{
+  margin-top: 100px;
+  margin-bottom: 50px;
+  text-align: center;
+  
 }
-
+.card{
+  width: 400px;
+  margin-left: 30px;
+  margin-top: 180px;
+}
+#Table_Eryk2{
+  margin-bottom: 160px;
+}
+#coach{
+  margin-top: 200px;
+  margin-bottom: 399px;
+}
+table{
+  position: absolute;
+margin-top: 50px;
+}
 footer{
-  background: rgb(2,0,36);
+
+background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 }
 
 
 
+/* efecto transicion tabla*/
+.scale-in-left {
+	-webkit-animation: scale-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
 
+
+@-webkit-keyframes scale-in-left {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-left {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 0% 50%;
+            transform-origin: 0% 50%;
+    opacity: 1;
+  }
+}
+
+
+
+/* imagen transicion*/
+#Lukasz_id {
+  transition: all 0.5s ease-in-out;
+ }
+ 
+ #Lukasz_id:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  filter: blur(2px);
+ }
+ #Lukasz_id:not(:hover){
+  transition: all 0.5s ease-in-out;
+ }
+
+ /* Waldi transition*/
+
+ #Waldek_id {
+  transition: all 0.5s ease-in-out;
+ }
+ 
+ #Waldek_id:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  filter: blur(2px);
+ }
+ 
+ #Waldek_id:not(:hover) {
+  transition: all 0.5s ease-in-out;
+ }
+ 
+ /*dariusz */
+
+ #Dariusz_id {
+ transition: all 0.5s ease-in-out;
+}
+
+#Dariusz_id:hover {
+ transform: scale(1.1);
+ opacity: 0.8;
+ filter: blur(2px);
+}
+
+#Dariusz_id:not(:hover) {
+ transition: all 0.5s ease-in-out;
+}
+
+/* Robert */
+
+#Robert_id {
+  transition: all 0.5s ease-in-out;
+ }
+ 
+ #Robert_id:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  filter: blur(2px);
+ }
+ 
+ #Robert_id:not(:hover) {
+  transition: all 0.5s ease-in-out;
+ }
+ 
+/* Dawid */
+
+ #Dawid_id {
+  transition: all 0.5s ease-in-out;
+  }
+  
+  #Dawid_id:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  filter: blur(2px);
+  }
+  
+  #Dawid_id:not(:hover) {
+  transition: all 0.5s ease-in-out;
+  }
+ 
+/* Wojciech*/
+
+  #Kuba_id{
+    transition: all 0.5s ease-in-out;
+}
+
+#Kuba_id:hover {
+    transform: scale(1.1);
+    opacity: 0.8;
+    filter: blur(2px);
+}
+
+#Kuba_id:not(:hover) {
+    transition: all 0.5s ease-in-out;
+}
+
+
+#Eryk_id {
+  transition: all 0.5s ease-in-out;
+}
+
+/* Eryk */
+
+#Eryk_id:hover {
+  transform: scale(1.1);
+  opacity: 0.8;
+  filter: blur(2px);
+}
+
+#Eryk_id:not(:hover) {
+  transition: all 0.5s ease-in-out;
+}
+
+
+
+/*text animations piracy gdansk riders*/
+
+
+.text-focus-in {
+	-webkit-animation: text-focus-in 2s 1s infinite both;
+	        animation: text-focus-in 2s 1s infinite both;
+}
+
+@-webkit-keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+@keyframes text-focus-in {
+  0% {
+    -webkit-filter: blur(12px);
+            filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-filter: blur(0px);
+            filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+/*logo latido*/
+
+.heartbeat {
+	-webkit-animation: heartbeat 2s ease-in-out infinite both;
+	        animation: heartbeat 2s ease-in-out infinite both;
+}
+
+@-webkit-keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes heartbeat {
+  from {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: center center;
+            transform-origin: center center;
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  10% {
+    -webkit-transform: scale(0.91);
+            transform: scale(0.91);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  17% {
+    -webkit-transform: scale(0.98);
+            transform: scale(0.98);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  33% {
+    -webkit-transform: scale(0.87);
+            transform: scale(0.87);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  45% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}

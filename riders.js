@@ -55,5 +55,4 @@ let Dawiddetails = Rider6.getDetails();
 document.getElementById('Dawiddetails').innerHTML = Dawiddetails;
 
 
-    
 
