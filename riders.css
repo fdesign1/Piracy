@@ -1,58 +1,57 @@
-
 #navegacion{
-    position: fixed;
-    width: 100%;
-    top: 0;
-    left: 0;
-    z-index: 2;
-    background: rgb(2,0,36);
-    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
-       
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
+     
 }
+
+
 .p-5 {
-    font-size: 30px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
 
 .ourriders{
-    padding-top: 40px;
-    text-align: center;
+  padding-top: 40px;
+  text-align: center;
 }
 .theteam_ourriders{
-  text-align: center;
-  font-size: 12px;
-  padding-bottom: 20px;
+text-align: center;
+font-size: 12px;
+padding-bottom: 20px;
 }
 
+.table{
+  position: absolute;
+
+  }
 
 
 #Titulo{
-  margin-top: 100px;
-  margin-bottom: 50px;
-  text-align: center;
-  
+margin-top: 100px;
+margin-bottom: 50px;
+text-align: center;
+
 }
 .card{
-  width: 400px;
-  margin-left: 30px;
-  margin-top: 180px;
+margin-left: 30px;
+margin-top: 220px;
+margin-right: 100px;
 }
-#Table_Eryk2{
-  margin-bottom: 160px;
-}
-#coach{
+
+
+#fila__{
   margin-top: 200px;
-  margin-bottom: 399px;
-}
-table{
-  position: absolute;
-margin-top: 50px;
 }
 footer{
-
 background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 }
+
 
 
 
