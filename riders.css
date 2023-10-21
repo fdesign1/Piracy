@@ -6,7 +6,14 @@
   z-index: 2;
   background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
-     
+}
+
+
+.navbar-nav .nav-item .nav-link{
+  color: white;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: red;
 }
 
 
@@ -32,8 +39,8 @@ padding-bottom: 20px;
 
 
 #Titulo{
-margin-top: 100px;
-margin-bottom: 50px;
+margin-top: 70px;
+margin-bottom: 0px;
 text-align: center;
 
 }
