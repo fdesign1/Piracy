@@ -1,3 +1,7 @@
+body, html {
+  overflow-x: hidden;
+}
+
 #navegacion{
   position: fixed;
   width: 100%;
@@ -46,6 +50,24 @@ background-image: url('https://www.orzel.lodz.pl/wp-content/uploads/08_IMG_4592.
 filter: blur(2px);
 height: 300px;
 }
+
+@media screen and (max-width: 768px) {
+  #Titulo {
+      font-size: 1px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  #Titulo {
+      font-size: 10px;
+      width: 100%;
+  }
+}
+
+
+
+
+
 .card{
 margin-left: 30px;
 margin-top: 220px;

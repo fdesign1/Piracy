@@ -1,9 +1,8 @@
-css body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
+body, html {
+  overflow-x: hidden;
 }
-/*nav bar*/
 
+/*nav bar*/
 #navegacion{
   position: sticky;
   top: 0;
