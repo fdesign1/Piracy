@@ -42,7 +42,9 @@ padding-bottom: 20px;
 margin-top: 70px;
 margin-bottom: 0px;
 text-align: center;
-
+background-image: url('https://www.orzel.lodz.pl/wp-content/uploads/08_IMG_4592.jpg');
+filter: blur(2px);
+height: 300px;
 }
 .card{
 margin-left: 30px;
@@ -324,4 +326,26 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
     -webkit-animation-timing-function: ease-out;
             animation-timing-function: ease-out;
   }
+}
+
+
+.ml10 {
+  position: relative;
+  font-weight: 900;
+  font-size: 4em;
+}
+
+.ml10 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml10 .letter {
+  display: inline-block;
+  line-height: 1em;
+  transform-origin: 0 0;
 }
