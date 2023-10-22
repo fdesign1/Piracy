@@ -2,6 +2,8 @@ css body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
 }
+/*nav bar*/
+
 #navegacion{
   position: sticky;
   top: 0;
@@ -17,7 +19,27 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
   color: red;
 }
 
-  
+/* carousel*/
+#demo{
+  z-index: 0;
+}
+
+.carousel-indicators button.active {
+  background-color: red;
+ }
+
+ .carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: rgb(0, 0, 0);
+  background-color: rgba(240, 240, 240, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid rgb(134, 3, 3);
+}
+
+ 
+
 footer{
 background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
@@ -25,6 +47,12 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
   left: 0;
   right: 0;
 }
+#Barra_Footer{
+  background: rgb(18,12,124);
+  background: linear-gradient(90deg, rgba(18,12,124,1) 0%, rgba(83,20,50,1) 50%, rgba(154,33,33,1) 100%);
+  }
+
+
 
 #facebook-container {
   overflow-y: scroll;
@@ -41,10 +69,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
     width: 200px;
   }
 }
-#Barra_Footer{
-background: rgb(18,12,124);
-background: linear-gradient(90deg, rgba(18,12,124,1) 0%, rgba(83,20,50,1) 50%, rgba(154,33,33,1) 100%);
-}
+
 
 
 
@@ -129,6 +154,7 @@ background: linear-gradient(90deg, rgba(18,12,124,1) 0%, rgba(83,20,50,1) 50%, r
 .container{
   margin-top: 100px;
   margin-bottom: 0%;
+  
 }
 
 
