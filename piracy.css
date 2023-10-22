@@ -1,12 +1,14 @@
 body, html {
   overflow-x: hidden;
+
 }
+
 
 /*nav bar*/
 #navegacion{
   position: sticky;
   top: 0;
-  z-index: 2;
+  z-index: 3;
   background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 }
@@ -24,6 +26,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 }
 
 .carousel-indicators button.active {
+  
   background-color: red;
  }
 
@@ -35,9 +38,19 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
   background-size: 100%, 100%;
   border-radius: 50%;
   border: 1px solid rgb(134, 3, 3);
+
 }
 
- 
+.carousel.carousel-fade .carousel-item {
+  display: block;
+  opacity: 0;
+  transition: opacity ease-out .7s;
+}
+
+.carousel.carousel-fade .carousel-item.active {
+  opacity: 1 !important;
+}
+
 
 footer{
 background: rgb(2,0,36);
@@ -68,13 +81,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
     width: 200px;
   }
 }
-
-
-
-
-
-
-
 
 
 /*ANIMATED TEXTO*/
@@ -155,5 +161,10 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
   margin-bottom: 0%;
   
 }
+
+
+
+
+
 
 
