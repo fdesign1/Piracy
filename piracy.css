@@ -4,29 +4,27 @@ body, html {
 }
 
 
-/*nav bar*/
+/*nav bar**********************************/
 #navegacion{
   position: sticky;
   top: 0;
   z-index: 3;
-  background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 }
-
 .navbar-nav .nav-item .nav-link{
   color: white;
 }
 .navbar-nav .nav-item .nav-link:hover {
   color: red;
 }
+/*nav bar***********************************/
 
-/* carousel*/
+
+
+/* carousel*************************************/
 #demo{
   z-index: 0;
 }
-
 .carousel-indicators button.active {
-  
   background-color: red;
  }
 
@@ -38,7 +36,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
   background-size: 100%, 100%;
   border-radius: 50%;
   border: 1px solid rgb(134, 3, 3);
-
 }
 
 
@@ -52,7 +49,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 .carousel.carousel-fade .carousel-item.active {
   opacity: 1 !important;
 }
-
+/* carousel************************************/
 
 
 
@@ -76,7 +73,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
   }
 
 
-
 #facebook-container {
   overflow-y: scroll;
   height: 600px;  /* Adjust this value to your needs */
@@ -92,6 +88,30 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
     width: 200px;
   }
 }
+
+
+#piracy_team{
+  transition: transform 0.5s
+}
+#piracy_team:hover {
+  transform: scale(0.9);
+}
+
+
+#rider_anime{
+  transition: transform 0.5s;
+}
+#rider_anime:hover {
+  transform: scale(0.9);
+}
+
+
+footer{
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
 
 
 /*ANIMATED TEXTO*/
@@ -127,51 +147,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
   line-height: 1em;
 }
 
-.stadium1 {
-  
-  height: 200px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url('./Riders_pic/rider.jpg');
-  transition: transform 0.5s;
-}
-
-.stadium1:hover {
-  transform: scale(0.9);
-}
-
-.stadium2 {
-  height: 300px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url('./Stadion/stadion_animated2.jpg');
-  transition: transform 0.5s;
-
-}
-
-.stadium2:hover {
-  transform: scale(0.9);
-}
-
-.rider_anime {
-  
-  height: 300px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-image: url('./Riders_pic/rider.jpg');
-  transition: transform 0.5s;
-}
-
-.rider_anime:hover {
-  transform: scale(0.9);
-}
-
-
-.container{
-  margin-top: 100px;
-  margin-bottom: 0%;
-  
-}
 
 
 
