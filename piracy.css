@@ -9,10 +9,9 @@ body, html {
   position: sticky;
   top: 0;
   z-index: 3;
-  background: rgb(45,57,142);
-  background: radial-gradient(circle, rgb(55, 67, 169) 11%, rgb(19, 118, 125) 100%);;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 }
-
 
 .navbar-nav .nav-item .nav-link{
   color: white;
@@ -42,6 +41,8 @@ body, html {
 
 }
 
+
+
 .carousel.carousel-fade .carousel-item {
   display: block;
   opacity: 0;
@@ -51,6 +52,15 @@ body, html {
 .carousel.carousel-fade .carousel-item.active {
   opacity: 1 !important;
 }
+
+
+
+
+
+
+
+
+
 
 
 footer{
@@ -162,7 +172,6 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
   margin-bottom: 0%;
   
 }
-
 
 
 
