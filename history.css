@@ -10,8 +10,6 @@ body, html {
     position: sticky;
     top: 0;
     z-index: 0;
-    background: rgb(45,57,142);
-    background: radial-gradient(circle, rgb(55, 67, 169) 11%, rgb(19, 118, 125) 100%);;
   }
   
   .navbar-nav .nav-item .nav-link{

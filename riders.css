@@ -3,13 +3,10 @@ body, html {
 }
 
 #navegacion{
-  position: fixed;
   width: 100%;
   top: 0;
   left: 0;
   z-index: 2;
-  background: rgb(45,57,142);
-  background: radial-gradient(circle, rgb(55, 67, 169) 11%, rgb(19, 118, 125) 100%);;
 }
 
 
@@ -80,9 +77,11 @@ margin-right: 100px;
 #fila__{
   margin-top: 200px;
 }
+
 footer{
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
 
 

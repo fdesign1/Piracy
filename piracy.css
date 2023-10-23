@@ -91,7 +91,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 
 
 #piracy_team{
-  transition: transform 0.5s
+  transition: transform 1s;
 }
 #piracy_team:hover {
   transform: scale(0.9);
@@ -99,7 +99,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
 
 
 #rider_anime{
-  transition: transform 0.5s;
+  transition: transform 2s;
 }
 #rider_anime:hover {
   transform: scale(0.9);
