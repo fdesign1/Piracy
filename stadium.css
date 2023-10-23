@@ -21,3 +21,25 @@
    }
 
 
+/*nav bar*/
+#navegacion{
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    background: rgb(45,57,142);
+    background: radial-gradient(circle, rgb(55, 67, 169) 11%, rgb(19, 118, 125) 100%);;;
+  }
+  
+  
+  .navbar-nav .nav-item .nav-link{
+    color: white;
+  }
+  .navbar-nav .nav-item .nav-link:hover {
+    color: red;
+  }
+  
+  /* carousel*/
+  #demo{
+    z-index: 0;
+  }
+  

@@ -293,8 +293,8 @@ a.demo--current {
 	position: sticky;
 	top: 0;
 	z-index: 3;
-	background: rgb(2,0,36);
-  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
+	background: rgb(45,57,142);
+	background: radial-gradient(circle, rgb(55, 67, 169) 11%, rgb(19, 118, 125) 100%);;
   }
   
   .navbar-nav .nav-item .nav-link{
@@ -319,9 +319,6 @@ a.demo--current {
 	  background: rgb(18,12,124);
 	  background: linear-gradient(90deg, rgba(18,12,124,1) 0%, rgba(83,20,50,1) 50%, rgba(154,33,33,1) 100%);
 	  }
-.grid{
-	z-index: 0;
-}
 
 
 
