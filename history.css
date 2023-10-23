@@ -38,4 +38,10 @@ body, html {
 
       }
 
-     
+      #rider_anime{
+        transition: transform 2s;
+      }
+      #rider_anime:hover {
+        transform: scale(0.9);
+      }
+      
