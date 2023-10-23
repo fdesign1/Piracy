@@ -9,7 +9,7 @@ body, html {
 #navegacion{
     position: sticky;
     top: 0;
-    z-index: 2;
+    z-index: 0;
     background: rgb(2,0,36);
   background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
   }
