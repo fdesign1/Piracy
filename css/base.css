@@ -39,7 +39,7 @@
   }
   
   .navbar-nav .nav-item .nav-link{
-	color: white;
+	color: rgb(6, 6, 118);
   }
   .navbar-nav .nav-item .nav-link:hover {
 	color: red;
