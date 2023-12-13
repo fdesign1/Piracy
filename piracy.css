@@ -52,27 +52,6 @@ body, html {
 /* carousel************************************/
 
 
-
-
-
-
-
-
-
-
-footer{
-background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(48,44,112,1) 100%);
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-#Barra_Footer{
-  background: rgb(18,12,124);
-  background: linear-gradient(90deg, rgba(18,12,124,1) 0%, rgba(83,20,50,1) 50%, rgba(154,33,33,1) 100%);
-  }
-
-
 #facebook-container {
   overflow-y: scroll;
   height: 600px;  /* Adjust this value to your needs */

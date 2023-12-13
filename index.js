@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3200;
+const port = process.env.PORT || 3000;
 const morgan = require('morgan');
 const fs = require('fs');
 
@@ -23,7 +23,7 @@ app.post('/submit_contact', (req, res) => {
 
 
 
-app.listen(3200, () => {
+app.listen(3000, () => {
  console.log(`Server is running on port ${port}`);
 });
 
