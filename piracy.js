@@ -35,6 +35,8 @@ async function fetchWeather() {
         // Manipular los datos de respuesta del pronóstico del tiempo
         const temperature = weatherData[0].Temperature.Metric.Value;
         const weatherText = weatherData[0].WeatherText;
+        const weatherIconData = weatherData[0].WeatherIcon;
+        
 
         // Mostrar la información en la página web 1
         document.getElementById('weather-info').innerHTML = `
@@ -42,6 +44,12 @@ async function fetchWeather() {
         `;
 
 
+       const imagen = document.getElementById("miImagen");
+       const urlImagen = `WeatherIcons/${weatherIconData}.png`
+       imagen.src=urlImagen;
+        
+        
+    
 
     } catch (error) {
         console.error('Error fetching data:', error);
