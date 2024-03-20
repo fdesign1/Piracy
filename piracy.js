@@ -38,11 +38,12 @@ async function fetchWeather() {
         const weatherIconData = weatherData[0].WeatherIcon;
         
 
-        // Mostrar la información en la página web 1
+        // Mostrar la información grados centigrados y si esta nublado o no
         document.getElementById('weather-info').innerHTML = `
             <p> Gdańsk: ${temperature}°C,${weatherText}</p>
         `;
 
+       // Mostrar Icono del clima 
 
        const imagen = document.getElementById("miImagen");
        const urlImagen = `WeatherIcons/${weatherIconData}.png`
