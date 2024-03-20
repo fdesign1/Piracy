@@ -127,7 +127,10 @@ footer{
 }
 
 
-
+#weather-info p{
+color: rgb(118, 36, 46);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 
 
 
